@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageviewitemmonan"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_margin="3dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageviewitemmonan"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textviewitemtenmonan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Ten mon an"
+            android:textColor="#f20"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/textviewitemgiamonan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Gia mon an"
+            android:textColor="#2f66a6"
+            android:textSize="25sp" />
+    </LinearLayout>
+</RelativeLayout>
